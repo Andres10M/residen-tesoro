@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resident Evil 4 Historia</title>
+</head>
+<h1>BIENVENIDO A</h1>
+    <h1>Resident Evil 4</h1>
+    <p>Tu pesadilla comienza...</p>
+
+   
+    <div id="inicio-container">
+        
+        <button onclick="starGame()">PRESIONA 'ENTER'<div class="underline"></div></button>
+    </div>
+
+<body>
+
+  <script src="StarGame.js"></script>
+  <script src="nivel1.js"></script>
+  <script src="nivel2.js"></script>
+  <script src="nivel3.js"></script>
+  <script src="nivel4.js"></script>
+  <script src="nivel5.js"></script>
+  <script src="nivel6.js"></script>
+  <script src="nivel7.js"></script>
+  <script src="nivel8.js"></script>
+  <script src="nivel9.js"></script>
+  <script src="nivel10.js"></script>
+  <script>
+    function reiniciarJuego() {
+    const reiniciar = confirm("¿Quieres reiniciar el juego?");
+    if (reiniciar) {
+      starGame();
+    } else {
+      alert("¡Hasta luego! Gracias por jugar.");
+    }
+  }
+  starGame(); 
+  </script>
+ 
+  </body>
+</html>
